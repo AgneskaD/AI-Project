@@ -12,7 +12,7 @@
         <h1>AI Polish Language Poem Generator</h1>
       </header>
       <main>
-        <form>
+        <form id="poem-generator-form">
           <input
             type="text"
             placeholder="Enter the topic of the Polish Language poem"
@@ -23,12 +23,9 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="poem">
-          Nic dwa razy się nie zdarza i nie zdarzy. 
-          <br />
-          Z tej przyczyny zrodziliśmy się bez wprawy i pomrzemy bez rutyny.
-        </div>
+        <div class="poem" id="poem"></div>
       </main>
+
       <footer>
         This AI project was coded by
         <a href="https://github.com/AgneskaD" target="_blank"
@@ -46,6 +43,7 @@
         >.
       </footer>
     </div>
-    <script src="src/index.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@2.18.0/dist/core.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
