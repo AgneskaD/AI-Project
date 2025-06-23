@@ -3,48 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/style.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>AI Polish Language Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Polish Language Poem Generator</h1>
-    </header>
-
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the Polish Language poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        Nic dwa razy się nie zdarza i nie zdarzy. 
-        <br />
-        Z tej przyczyny zrodziliśmy się bez wprawy i pomrzemy bez rutyny.
-      </div>
-    </main>
-
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/AgneskaD" target="_blank"
-        >Agnieszka Dawidowicz</a
-      >
-      and is
-      <a href="https://github.com/AgneskaD/AI-Project" target="_blank">
-        open-sourced on GitHub</a
-      >
-      and is
-      <a
-        href="https://astounding-shortbread-ba8a3b.netlify.app/"
-        target="_blank"
-        >hosted on Netlify</a
-      >.
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI Polish Language Poem Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the Polish Language poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          Nic dwa razy się nie zdarza i nie zdarzy. 
+          <br />
+          Z tej przyczyny zrodziliśmy się bez wprawy i pomrzemy bez rutyny.
+        </div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/AgneskaD" target="_blank"
+          >Agnieszka Dawidowicz</a
+        >
+        and is
+        <a href="https://github.com/AgneskaD/AI-Project" target="_blank">
+          open-sourced on GitHub</a
+        >
+        and is
+        <a
+          href="https://astounding-shortbread-ba8a3b.netlify.app/"
+          target="_blank"
+          >hosted on Netlify</a
+        >.
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
