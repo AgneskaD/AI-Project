@@ -1,10 +1,13 @@
 body {
-  background-color: #f9f7fe;
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-family: "Cormorant Garamond", serif;
+  background-color: #ffffff;
+  color: #2c2c2c;
+  line-height: 1.6;
 }
 
 a {
-  color: #885df1;
+  color: #dc143c;
 }
 
 .container {
@@ -15,7 +18,7 @@ a {
 h1 {
   text-align: center;
   font-weight: 800;
-  font-size: 36px;
+  font-size: 35px;
   line-height: 1.5;
   color: #272044;
 }
@@ -23,6 +26,7 @@ h1 {
 form {
   padding: 30px;
   background-color: white;
+  font-family: "Cormorant Garamond", serif;
   border-radius: 10px;
   display: flex;
 }
@@ -31,6 +35,7 @@ form {
   padding: 16px;
   border: 1px solid rgba(39, 33, 66, 0.5);
   width: 80%;
+  font-family: "Cormorant Garamond", serif;
   font-size: 16px;
   border-radius: 50px;
   line-height: 20px;
@@ -39,10 +44,11 @@ form {
 
 .submit-button {
   margin-left: 10px;
-  background: #885df1;
+  background-color: #dc143c;
   color: white;
   border: none;
   width: 150px;
+  font-family: "Cormorant Garamond", serif;
   font-size: 16px;
   border-radius: 50px;
   padding: 14px 24px;
@@ -51,10 +57,16 @@ form {
 .poem {
   font-size: 16px;
   background-color: #fff;
+  font-family: "Cormorant Garamond", serif;
   padding: 20px;
   line-height: 2;
-  border-left: 3px solid #885df1;
+  border-left: 3px solid #dc143c;
   box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
+}
+
+.poem strong {
+  color: #dc143c; /* Polish red */
+  font-weight: bold;
 }
 
 footer {

@@ -3,14 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
-    <title>AI Polish Language Poem Generator</title>
+    <title>🇵🇱 AI Polish Language Poem Generator 🥟</title>
   </head>
   <body>
     <div class="container">
-      <header>
-        <h1>AI Polish Language Poem Generator</h1>
+      <header
+        style="
+          background-image: url('folk-pattern.png');
+          background-size: cover;
+        "
+      >
+        <h1>🇵🇱 AI Polish Language Poem Generator 🥟</h1>
       </header>
+
       <main>
         <form id="poem-generator-form">
           <input
@@ -20,9 +31,11 @@
             required
             autocomplete="off"
             class="instructions"
+            id="user-instructions"
           />
           <input type="submit" class="submit-button" />
         </form>
+        <div class="hint">i.e: Chopin, Warsaw or Pierogi</div>
         <div class="poem" id="poem"></div>
       </main>
 
